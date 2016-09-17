@@ -1,0 +1,55 @@
+{
+    "name": "HOCON",
+    "displayName": "HOCON",
+    "description": "HOCON config language support.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "keywords": [
+        "language",
+        "hocon",
+        "highlight",
+        "syntax",
+        "typesafe",
+        "config"
+    ],
+    "publisher": "sabieber",
+    "author": {
+        "name": "Sascha Bieberstein"
+    },
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/sabieber/vscode-hocon"
+	},
+    "bugs": {
+		"url": "https://github.com/sabieber/vscode-hocon/issues"
+	},
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "hocon",
+                "aliases": [
+                    "HOCON",
+                    "hocon"
+                ],
+                "extensions": [
+                    ".conf",
+                    ".properties",
+                    ".json"
+                ],
+                "configuration": "./hocon.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "hocon",
+                "scopeName": "source.hocon",
+                "path": "./syntaxes/hocon.json"
+            }
+        ]
+    }
+}
