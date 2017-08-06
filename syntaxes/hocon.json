@@ -122,7 +122,13 @@
         },
         "variables": {
             "comment": "variable references",
-            "match": "\\$\\{[^\\}]*\\}",
+            "begin": "\\$\\{",
+            "end": "\\}",
+            "patterns": [
+              {
+                "include": "#string"
+              }
+            ],
             "name": "storage.type.source.hocon"
         }
     }
