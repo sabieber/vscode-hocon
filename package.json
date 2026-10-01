@@ -15,6 +15,7 @@
         "config"
     ],
     "publisher": "sabieber",
+    "license": "MIT",
     "author": {
         "name": "Sascha Bieberstein"
     },
