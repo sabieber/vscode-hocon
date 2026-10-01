@@ -45,8 +45,7 @@
                 ],
                 "extensions": [
                     ".conf",
-                    ".properties",
-                    ".json"
+                    ".hocon"
                 ],
                 "configuration": "./hocon.configuration.json"
             }
