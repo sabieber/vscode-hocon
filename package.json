@@ -2,7 +2,7 @@
     "name": "HOCON",
     "displayName": "HOCON",
     "description": "HOCON config language support.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.0.0"
     },
