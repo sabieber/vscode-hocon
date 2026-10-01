@@ -26,6 +26,12 @@
     "bugs": {
 		"url": "https://github.com/sabieber/vscode-hocon/issues"
 	},
+    "files": [
+        "LICENSE",
+        "README.md",
+        "hocon.configuration.json",
+        "syntaxes"
+    ],
     "categories": [
         "Languages"
     ],
